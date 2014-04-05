@@ -21,6 +21,7 @@
 		4BE7A2AA18F0B1E1005788D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE7A28C18F0B1E0005788D5 /* UIKit.framework */; };
 		4BE7A2B218F0B1E1005788D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7A2B018F0B1E1005788D5 /* InfoPlist.strings */; };
 		4BE7A2B418F0B1E1005788D5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A2B318F0B1E1005788D5 /* Git_TestTests.m */; };
+		4BE7A2BF18F0B450005788D5 /* OTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7A2BE18F0B450005788D5 /* OTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4BE7A2AF18F0B1E1005788D5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		4BE7A2B118F0B1E1005788D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BE7A2B318F0B1E1005788D5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4BE7A2BD18F0B450005788D5 /* OTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTest.h; sourceTree = "<group>"; };
+		4BE7A2BE18F0B450005788D5 /* OTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4BE7A29A18F0B1E0005788D5 /* Main.storyboard */,
 				4BE7A29D18F0B1E0005788D5 /* OWViewController.h */,
 				4BE7A29E18F0B1E0005788D5 /* OWViewController.m */,
+				4BE7A2BD18F0B450005788D5 /* OTTest.h */,
+				4BE7A2BE18F0B450005788D5 /* OTTest.m */,
 				4BE7A2A018F0B1E0005788D5 /* Images.xcassets */,
 				4BE7A28F18F0B1E0005788D5 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				4BE7A29918F0B1E0005788D5 /* OWAppDelegate.m in Sources */,
 				4BE7A29F18F0B1E0005788D5 /* OWViewController.m in Sources */,
+				4BE7A2BF18F0B450005788D5 /* OTTest.m in Sources */,
 				4BE7A29518F0B1E0005788D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
